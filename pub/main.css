@@ -1,0 +1,61 @@
+body 				{ background:#B2A48F; margin:0; }
+#main				{ display:grid; grid-template-columns:200px 1fr; grid-template-rows:24px 1fr; grid-gap: 0;}
+#menu 				{ 
+						grid-row:span 2; background:#FFF9F0; padding:0.5em; margin:0; height:100vh; box-sizing:border-box; 
+						/*position:absolute; top:0; left:0;*/
+					}
+#tabs 				{ height:20px; margin-top:4px; }
+#content 			{ background:#FFEBCD; padding:0.5em; overflow-x:auto; }
+#credit				{ padding:8px; color:#B0A699; font-size:66%; }
+#log 				{ padding:8px; color:#B0A699; font-size:66%; font-family:'Courier',monospace; }
+
+.tab 				{ background:#CCBCA4; text-decoration:none; padding:0 0.2em 0 0.2em; margin: 0 0 0 0.2em; border-radius: 0.2em 0.2em 0 0; }
+.tab.selected		{ background:#FFEBCD; }
+.tab:hover			{ color:red; }
+.tab a				{ text-decoration:inherit; color:inherit; }
+
+
+/*table, th, td		{ border: 1px solid gray; }*/
+
+/* TABLE */
+table				{ }
+table.sql			{ } 
+tr					{ background:#E0D6C8; }
+tr.odd				{ background:#DACEBE; }
+th					{ background:#FFF9F0; padding:0 0.3em 0 0.3em; }
+.sub-header th		{ background:#F9F0E9; padding:0 0.3em 0 0.3em; }
+td					{ padding:0 0.3em 0 0.3em; vertical-align:top; }
+div.colorbox		{ width:16px; height:16px; border:solid thin black; }
+
+/* EDIT */
+.edit				{ background:inherit; border:solid thin #CCBCA4; }
+.save				{ margin-top:0.5em; }
+.save img			{ margin:0 0.5em 0 0.5em; }
+.grayed				{ color:gray; }
+
+/* AGENDA */
+.month				{ background:#F9F0E9; padding:8px; margin-bottom:16px; }
+.monthname			{ padding:0; text-align:center; font-size:200%; }
+.monthdiv			{ display:grid; grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr; grid-gap:0; }
+.weekday			{ background:#FFF9F0; border:#B0A699 1px solid; padding:4px; text-align:center; }
+.day				{ background:#E0D6C8; border:#B0A699 1px solid; padding:4px; min-height:128px; }
+.day.odd			{ background:#DACEBE; }
+.day.today			{ background:#E0C0C8; border:red 1px solid; }
+.day.empty			{ background:#B0A699; }
+.daynum				{ ; }
+
+.period				{ width:fill; border-style:solid none; border-color:#888; border-width:1px; padding:0 4px 0 4px; }
+.period.even		{ }
+.period.odd			{ margin-top:2px; }
+.period.first		{ border-left-style:solid; border-left-width:8px; }
+.period.last		{ border-right-style:solid; border-right-width:8px; }
+
+/* MENU */
+.menu_section		{ font-weight:bold; border-bottom: solid #E0D6C8 thin; }
+
+/* LOGIN */
+.login_panel		{ background:#F9F0E9; padding:8px; margin:16px; }
+.login_title		{ font-size:200%; margin-left:8px; }
+
+/* MAP */
+canvas#map:hover	{ cursor: crosshair; }

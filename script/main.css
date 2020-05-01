@@ -1,0 +1,21 @@
+body 				{ background:#B2A48F; }
+.menu 				{ background:#FFF9F0; padding:0.5em; width:200px; }
+.content 			{ background:#FFEBCD; padding:0.5em; }
+#log 				{ padding:0.5em; color:#FFEBCD; font-size:66%; font-family:'Courier',monospace; }
+
+.tab 				{ background:#CCBCA4; text-decoration:none; padding:0 0.2em 0 0.2em; margin: 0 0 0 0.2em; border-radius: 0.2em 0.2em 0 0; }
+.tab.selected		{ background:#FFEBCD; }
+.tab:hover			{ color:red; }
+.tab a				{ text-decoration:inherit; color:inherit; }
+
+table				{  }
+th					{ background:#FFF9F0; padding:0 0.3em 0 0.3em; }
+td					{ padding:0 0.3em 0 0.3em; }
+tr					{ background:#E0D6C8; }
+tr.odd				{ background:#DACEBE; }
+
+div.colorbox		{ width:16px; height:16px; border:solid thin black; }
+.edit				{ background:inherit; border:solid thin #CCBCA4; }
+.save				{ margin-top:0.5em; }
+.save img			{ margin:0 0.5em 0 0.5em; }
+.grayed				{ color:gray; }
